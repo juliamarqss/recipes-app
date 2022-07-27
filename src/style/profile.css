@@ -1,0 +1,54 @@
+.container-profile {
+  margin-top: 30px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 16px;
+}
+
+.container-profile btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profileIcon {
+  width:100px;
+}
+
+.username {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.btn-done-recipes {
+  background-color: #0E0E0E;
+  color: white;
+  margin-top: 20px;
+  width: 293px;
+  height: 31px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px rgb(139, 139, 139);
+}
+
+.btn-fav-recipes {
+  background-color: #0E0E0E;
+  color: white;
+  margin-top: 20px;
+  width: 293px;
+  height: 31px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px rgb(139, 139, 139);
+}
+
+.btn-logout {
+  background-color: #ffffff;
+  color: #0E0E0E;
+  margin-top: 20px;
+  width: 293px;
+  height: 31px;
+  border-radius: 5px;
+  border: 1px solid #0E0E0E;
+  box-shadow: 5px 5px 5px rgb(139, 139, 139);
+}

@@ -1,0 +1,192 @@
+body {
+  background: #FBFCFE;
+  font-family: 'League Spartan', sans-serif;
+}
+
+.container-btn-type{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  height: 43px;
+  padding: 15px;
+}
+
+.container-search {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-input {
+  width: 293px;
+  height: 31px;
+  border-radius: 5px;
+  border: 1px solid #EBEBEB;
+  padding: 0 10px;
+  font-size: 14px;
+  color: #BDBDBD;
+}
+
+.container-radios {
+  margin-top: 10px;
+  color: #BDBDBD;
+}
+
+.container-radios input {
+  margin-right: 5px;
+  margin-left: 10px;
+}
+
+.container-radios input[type='radio']:after {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  top: -2px;
+  left: -1px;
+  position: relative;
+  background-color: #d1d3d1;
+  content: '';
+  display: inline-block;
+  visibility: visible;
+  border: 1px solid white;
+}
+
+
+.container-radios input[type="radio"]:checked::after {
+  background-image: linear-gradient(to bottom right,  #19BC66, #A1EAC3);
+  visibility: visible;
+}
+
+.search-btn-2 {
+  background-image: linear-gradient(to bottom right,  #1F1F1F, #5f5f5f);
+  color: white;
+  border-radius: 5px;
+  margin-top: 5px;
+  width: 293px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-btn-2:hover {
+  background-image: linear-gradient(to bottom right,  #e2e2e2, #aaaaaa);
+  color: white;
+}
+
+.footer {
+  display: flex;
+  bottom: 0;
+  position: fixed;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  height: 43px;
+  width: 100%;
+  padding: 15px;
+}
+
+.food-btn {
+  height: 22px;
+}
+
+.drink-btn {
+  height: 22px;
+}
+
+.title-foods-drinks {
+  font-size: 20px;
+  font-weight: bold;
+  color: #636060;
+}
+
+.profile-btn {
+  height: 22px;
+}
+
+.search-btn {
+  height: 22px;
+}
+
+.container-title-cooking {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  font-size: 32px;
+  font-weight: bold;
+  color:#1F1F1F;
+  margin-left: 34px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.container-category-btn {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: 34px;
+  margin-right: 34px;
+  /* margin-bottom: 7px; */
+}
+
+.category-btn {
+  background-color: white;
+  border: 1px solid #EBEBEB;
+  border-radius: 5px;
+  font-size: 100%;
+  word-wrap: normal;
+  color: #BDBDBD;
+  width: 92px;
+  height: 31px;
+  margin-bottom: 10px;
+}
+
+.category-btn span {
+  font-size: smaller;
+}
+
+/* Não funciona no modo responsivo */
+.category-btn:hover {
+  /* background-color: #19BC66; */
+  background-image: linear-gradient(to bottom right,  #19BC66, #A1EAC3);
+  color: white;
+}
+
+.container-recipes {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.container-recipes p {
+  /* font-size: 4vw; */
+}
+
+.card-img {
+  height: 277px;
+  width: 293px;
+  margin-bottom: 40px;
+  margin-top: 30px;
+  border-radius: 10px;
+  /* box-shadow: 5px 5px 5px rgb(139, 139, 139); */
+}
+
+.container-name {
+  background-color: hsl(220, 60%, 99%, 0.8);
+  position: absolute;
+  top: 60px;
+  left: 188px;
+  width: 140px;
+}
+
+.card-name {
+  color: #1F1F1F;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+

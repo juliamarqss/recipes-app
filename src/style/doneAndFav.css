@@ -1,0 +1,84 @@
+.container-btn-filter {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-left: 34px;
+  margin-right: 34px;
+}
+
+.container-btn-filter button {
+  background-color: white;
+  border: 1px solid #EBEBEB;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #BDBDBD;
+  width: 92px;
+  height: 31px;
+  margin-bottom: 15px;
+}
+
+.container-btn-filter button:hover {
+  background-image: linear-gradient(to bottom right,  #19BC66, #A1EAC3);
+  color: white;
+}
+
+.container-done-card {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+
+.container-done-card2 {
+  background-color: #EBEBEB;
+  display:flex;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  width: 293px;
+  height:150px;
+  box-shadow: 5px 5px 5px rgb(139, 139, 139);
+}
+
+.img-card {
+  height:150px;
+  width: 150px;
+  border-radius: 10px 0 0 10px;
+}
+
+.container-done-card3 {
+  margin-left: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: #636060;
+}
+
+.name-card {
+  font-size:20px;
+  font-weight: bold;
+  color: #1F1F1F;
+}
+
+.container-done-card4 {
+  display: flex;
+  justify-content:space-between;
+  width: 120px;
+}
+
+.container-tags {
+  display: flex;
+  height: 30px;
+  align-items: flex-end;
+}
+
+.tags {
+  display: flex;
+  font-size: 14px;
+  font-style: italic;
+}
+
+.container-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100px;
+}
